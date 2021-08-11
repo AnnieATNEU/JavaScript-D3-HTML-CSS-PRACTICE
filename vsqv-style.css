@@ -1,0 +1,236 @@
+/* //////////////////////////////////////////////////////////////////////////
+/////style for left-form group //cohort selection panel ///////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
+.cohortSelection {
+     background-color: #C4E2F6;
+    width:25%;
+    float:left;
+    height:700px;
+    font-family:roboto;
+    position: relative;
+    border-style: solid;
+    border-color: rgb(19, 49, 77);
+    border-width: thin;
+  } 
+  .div1{
+    color:rgb(14, 1, 1);
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+  }
+.upperleft-form {
+
+  padding-top: 5px;
+  padding-left: 15px;
+  /* cursor: pointer; */
+  font-family: Lato;
+  font-weight: bold;
+  border-radius: 12px;
+
+}
+
+.bottomleft-form {
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: Lato;
+}
+
+.choosesample{
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 12px;
+    width:275px;
+    height:40px;
+    text-align: center;
+}
+.displaytable{
+    cursor: pointer;
+    font-family: Lato;
+    border-radius: 12px;
+    width:250px;
+    height:40px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.updateView{
+    cursor: pointer;
+    border-radius: 12px;
+    width:200px;
+    height:40px;
+    background-color: #0191C8;
+    font-family: Lato;
+    font-weight: bolder;
+    margin-left: 40px;
+    text-shadow: black;
+    font-weight: bolder;
+
+}
+.startend{
+    font-weight: bold;
+    border-radius: 5px;
+    width:250px;
+    height:20px;
+    
+}
+.sample{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    width:250px;
+    height:20px;
+    text-align: center;
+}
+
+.columns{
+    font-weight: bolder;
+    border-radius: 5px;
+    width:250px;
+    height:20px;
+    text-align: center;
+
+}
+.selectBox{
+    position: relative;
+}
+.multiselect{
+    width: 200px;
+}
+.selectBox select{
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect{
+    position: absolute;
+    left:0; right:0; top: 0; bottom: 0;
+}
+#checkboxes{
+   display:none;
+   border: 1px #dadada solid;
+   font-family: Lato;
+
+}
+
+#checkboxes label{
+    display:block;
+}
+.subset{
+    cursor: pointer; 
+}
+#checkboxes label:hover{
+    background-color: #1e90ff;
+}
+
+.upload{
+    width:150px;
+    height:25px; 
+    border-radius: 15px;
+    margin-left: 15%;
+    
+}
+.choosefile{
+        width:300px;
+        height:28px; 
+        border-radius: 5px;
+    
+}
+/* 
+////////////////////////////////////////////////////////////////////////////////////// */
+/* right-table group //Table,Plot,IGV 
+//////////////////////////////////////////////////////////////////////////////*/
+.mytabs{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin:50px auto; /* auto left and right */
+    padding:25px;
+    font-family: sans-serif;
+}
+.search-input{
+    border-radius: 11px;
+    stroke-width: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.bg-info{ 
+    cursor: pointer;
+    color:#fff;
+        }
+
+.mytabs input[type="radio"] {
+    display:none;
+}
+
+.mytabs label{
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab{
+    width: 100%;
+    padding: 20px;
+    order:1;
+}
+
+
+
+
+.tablePanel {
+    margin-top: 0px;
+    background-color: #F8F8F8;
+    padding-top: 7px;
+    width:74.66%;
+    height:693px;
+    float:right;
+    text-align: center;
+    position: relative;
+    border-style: solid;
+    border-width: thin;
+    
+    
+  } 
+
+.div2{
+    font-family:Roboto;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.search{
+    font-weight: bold;
+    border-radius: 10px;
+    width:230px;
+    height:20px;
+    float:right;
+    position: absolute;
+    margin-left: 150px;
+    padding: 10px; 
+    
+}
+
+searchlabel{
+  padding-left: 210px;
+}
+
+/* inside table Panel */
+
+.tabletable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  
+.tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
